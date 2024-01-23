@@ -8,7 +8,7 @@ export function activate() {
   statusBar.tooltip = 'Open Git Repository'
   statusBar.show()
 
-  commands.registerCommand('open-git-repo.open', async () => {
+  commands.registerCommand('open-git-repo.open', () => {
     try {
       const gitExtension = extensions.getExtension<GitExtension>('vscode.git')?.exports
 

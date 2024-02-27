@@ -3,7 +3,7 @@
   "name": "open-git-repo",
   "displayName": "open-git-repo",
   "version": "0.0.7",
-  "packageManager": "pnpm@8.15.1",
+  "packageManager": "pnpm@8.15.4",
   "description": "open github or gitlab repo in browser",
   "author": "yjhtry <860622588@qq.com>",
   "license": "MIT",
@@ -43,18 +43,18 @@
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.4",
     "@antfu/ni": "^0.21.12",
-    "@types/node": "^20.11.17",
+    "@types/node": "^20.11.20",
     "@types/vscode": "^1.86.0",
-    "@vscode/vsce": "^2.23.0",
+    "@vscode/vsce": "^2.24.0",
     "bumpp": "^9.3.0",
-    "eslint": "^8.56.0",
+    "eslint": "^8.57.0",
     "esno": "^4.0.0",
-    "pnpm": "^8.15.1",
+    "pnpm": "^8.15.4",
     "rimraf": "^5.0.5",
-    "tsup": "^8.0.1",
+    "tsup": "^8.0.2",
     "typescript": "^5.3.3",
-    "vite": "^5.1.1",
-    "vitest": "^1.2.2"
+    "vite": "^5.1.4",
+    "vitest": "^1.3.1"
   },
   "commands": [
     {

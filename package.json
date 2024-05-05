@@ -2,7 +2,7 @@
   "publisher": "yjhtry",
   "name": "open-git-repo",
   "displayName": "open-git-repo",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "packageManager": "pnpm@9.0.6",
   "description": "open github or gitlab repo in browser",
   "author": "yjhtry <860622588@qq.com>",
@@ -24,7 +24,7 @@
     "dist"
   ],
   "engines": {
-    "vscode": "^1.87.0"
+    "vscode": "^1.89.0"
   },
   "activationEvents": [
     "onStartupFinished"

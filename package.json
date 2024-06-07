@@ -2,7 +2,7 @@
   "publisher": "yjhtry",
   "name": "open-git-repo",
   "displayName": "open-git-repo",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "packageManager": "pnpm@9.2.0",
   "description": "open github or gitlab repo in browser",
   "author": "yjhtry <860622588@qq.com>",

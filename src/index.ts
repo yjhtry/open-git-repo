@@ -1,5 +1,6 @@
 import { StatusBarAlignment, Uri, commands, env, extensions, window } from 'vscode'
 import type { GitExtension } from '../types/vscode.git'
+import { convertSshToHttp } from './utils'
 
 export function activate() {
   const statusBar = window.createStatusBarItem(StatusBarAlignment.Left, 0)
@@ -32,7 +33,7 @@ export function activate() {
         return
       }
 
-      env.openExternal (Uri.parse (remote.fetchUrl))
+      env.openExternal(Uri.parse(convertSshToHttp(remote.fetchUrl, false)))
     }
     catch (error) {
       window.showInformationMessage(`[open git repo error]: ${(error as any).message}`)
